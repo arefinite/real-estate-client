@@ -1,0 +1,6 @@
+export {default as Home} from './Home.jsx'
+export {default as NotFound} from './NotFound.jsx'
+export {default as DubaiDevelopers} from './DubaiDevelopers.jsx'
+export {default as DubaiDeveloper} from './DubaiDeveloper.jsx'
+export {default as DubaiAreas} from './DubaiAreas.jsx'
+export {default as Navigation} from './Navigation.jsx'

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ? reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline:none;
+}
+
+img {
+  border-style: none;
+}
+
+input {
+  border-radius: 0;
+}
+
+body {
+  color: #3a3a3a;
+  font-size: 0.9375rem;
+  font-weight: 300;
+  scroll-behavior: smooth;
+}
+
+/* ? Utilities */
+h1 {
+  padding-bottom: 0.8rem;
+  font-weight: 400;
+}
+
+.heading {
+  @apply text-[1.125rem]  font-[400];
+}
+
+.banner-style {
+  background-image: url('banner-image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.search-box{
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+}
