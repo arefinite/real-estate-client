@@ -13,7 +13,7 @@ const DubaiAreas = () => {
       <HeaderDesktopAll />
       <div className='container mx-auto my-4'>
         <Breadcrumb link1='/' link1Text='Home' link2Text='Dubai Areas' />
-        <DubaiSection title='Dubai Developers' />
+        <DubaiSection title='Dubai Areas' />
         <div className='max-w-96 mx-auto px-4 md:px-0'>
           <SearchBox placeholder='Search Areas' icon={false} />
         </div>
