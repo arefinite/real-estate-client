@@ -1,6 +1,6 @@
 
 import { DubaiSection, SearchBox } from "../components/home"
-import Breadcrumb from "../components/shared/breadcrumb"
+import Breadcrumb from "../components/shared/Breadcrumb"
 import HeaderDesktopAll from "../components/shared/header/HeaderDesktopAll"
 import MobileFixedHeader from "../components/shared/header/MobileFixedHeader"
 import dev1 from '/omniyat-logo.png'
