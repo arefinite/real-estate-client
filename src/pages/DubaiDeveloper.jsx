@@ -1,11 +1,12 @@
 import { ProjectForSale } from '../components/home'
-import Breadcrumb from '../components/shared/breadcrumb'
+
 import HeaderDesktopAll from '../components/shared/header/HeaderDesktopAll'
 import MobileFixedHeader from '../components/shared/header/MobileFixedHeader'
 import Footer from '../components/shared/footer/Footer'
 import BottomNavigation from '../components/shared/BottomNavigation'
 import { houseData } from '../data/houseData'
 import dev2 from '/emaar-logo.png'
+import Breadcrumb from '../components/shared/Breadcrumb'
 
 const DubaiDeveloper = () => {
   return (
