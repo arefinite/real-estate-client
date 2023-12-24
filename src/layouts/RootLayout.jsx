@@ -1,8 +1,11 @@
 import {Outlet} from 'react-router-dom'
+import Wrapper from '../components/Wrapper'
 const RootLayout = () => {
   return (
       <>
-        <Outlet/>
+      <Wrapper>
+      <Outlet/>
+       </Wrapper>
       </>
   )
 }
