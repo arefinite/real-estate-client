@@ -4,7 +4,7 @@ const SearchBox = ({placeholder,icon=true}) => {
 	return (
 
 			<div className='flex gap-1 w-full items-center'>
-				<div className='flex items-center min-w-0 md:min-w-[30rem] flex-grow h-12 overflow-hidden bg-white shadow-lg border border-stone-100 p-2 rounded-full'>
+			<div className={`flex items-center min-w-0 md:min-w-[30rem] flex-grow h-12 overflow-hidden bg-white ${icon ? 'shadow-sm' : ''} border border-stone-200 p-2 rounded-full`}>
 					<CiSearch className='text-xl font-bold ml-1' />
 					<input
 						className='ml-1 items-center outline-none bg-white text-stone-400 flex-grow min-w-0 w-80'

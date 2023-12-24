@@ -3,7 +3,7 @@ import { IoIosMail } from 'react-icons/io'
 import { IoMenuSharp } from 'react-icons/io5'
 import {useLocation} from 'react-router-dom'
 
-const HeaderNav = () => {
+const HeaderNav = ({ scrolled }) => {
   const { pathname } = useLocation()
   console.log(pathname);
   return (
@@ -13,11 +13,11 @@ const HeaderNav = () => {
           <RiWhatsappFill className='text-green-500 text-2xl' />
         </div>
         <div className=''>
-          <IoIosMail className={ `text-2xl ${pathname === '/' ? 'text-white': 'text-black'} `} />
+          <IoIosMail className={ `text-2xl ${pathname  === '/'  && !scrolled? 'text-white': 'text-black'}  `} />
         </div>
       </div>
       <div>
-        <IoMenuSharp className={ `text-4xl ${pathname==='/' ? 'text-white': 'text-black'} `} />
+        <IoMenuSharp className={ `text-4xl ${pathname==='/' && !scrolled ? 'text-white': 'text-black'} `} />
       </div>
     </div>
   )

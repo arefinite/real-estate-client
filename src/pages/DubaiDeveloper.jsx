@@ -15,12 +15,12 @@ const DubaiDeveloper = () => {
       <HeaderDesktopAll  />
       <div className='container mx-auto my-4'>
         <Breadcrumb link1='/' link1Text='Home' link2Text='Dubai Developers' link2='/dubai-developers' link3 link3Text='Dubai Developer' />
-        <div>
-          <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 px-4 md:px-0'>
+        <div >
+          <div className='md:text-center mt-20 px-4 md:px-0 space-y-10'>
             <div className='p-6 md:p-0 flex-1  grid place-content-center md:border-0 border border-slate-300 w-full'>
-              <img src={dev2} alt="" className='md:w-1/2 md:mx-auto'  />
+              <img src={dev2} alt="" className='md:w-full h-12 md:mx-auto'  />
             </div>
-            <div className='flex-1'>
+            <div className='w-full'>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Dolorum rem aspernatur ea minus! Id consequuntur dignissimos
@@ -33,8 +33,8 @@ const DubaiDeveloper = () => {
                 enim, rem sint aut dicta optio, voluptate nobis, nulla eaque
                 unde voluptates voluptatem? Ex, ea.
               </p>
-              <button className='bg-black text-white w-full md:w-1/2 py-3 mt-4'>Register Interest</button>
             </div>
+              <button className='bg-black text-white w-full md:w-56 py-3 mt-4'>Register Interest</button>
           </div>
           <div className='mt-8'>
             <ProjectForSale />

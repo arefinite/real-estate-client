@@ -23,103 +23,103 @@ const DubaiDevelopers = () => {
         </div>
         <div className='grid grid-cols-2 md:grid-cols-4 gap-3 mt-10 px-4 md:px-0'>
           <Link to='/dubai-developer'>
-            <div className='border p-4 md:md:h-32 h-24 h-24 flex items-center'>
-              <img src={dev1} alt='' className='w-full' />
+            <div className='border p-4 md:md:h-32 h-24 flex justify-center items-center'>
+              <img src={dev1} alt='' className='md:w-2/3 w-full' />
             </div>
           </Link>
           <Link to='/dubai-developer'>
-            <div className='border p-4 md:h-32 h-24 flex items-center'>
-              <img src={dev2} alt='' className='w-full' />
+            <div className='border p-4 md:h-32 h-24 flex justify-center items-center'>
+              <img src={dev2} alt='' className=' md:w-2/3 w-full' />
             </div>
           </Link>
           <Link to='/dubai-developer'>
-            <div className='border p-4 md:h-32 h-24 flex items-center'>
-              <img src={dev3} alt='' className='w-full' />
+            <div className='border p-4 md:h-32 h-24 flex justify-center items-center'>
+              <img src={dev3} alt='' className=' md:w-2/3 w-full' />
             </div>
           </Link>
           <Link to='/dubai-developer'>
-            <div className='border p-4 md:h-32 h-24 flex items-center'>
-              <img src={dev4} alt='' className='w-full' />
+            <div className='border p-4 md:h-32 h-24 flex justify-center items-center'>
+              <img src={dev4} alt='' className=' md:w-2/3 w-full' />
             </div>
           </Link>
           <Link to='/dubai-developer'>
-            <div className='border p-4 md:h-32 h-24 flex items-center'>
-              <img src={dev1} alt='' className='w-full' />
+            <div className='border p-4 md:h-32 h-24 flex justify-center items-center'>
+              <img src={dev1} alt='' className=' md:w-2/3 w-full' />
             </div>
           </Link>
           <Link to='/dubai-developer'>
-            <div className='border p-4 md:h-32 h-24 flex items-center'>
-              <img src={dev2} alt='' className='w-full' />
+            <div className='border p-4 md:h-32 h-24 flex justify-center items-center'>
+              <img src={dev2} alt='' className=' md:w-2/3 w-full' />
             </div>
           </Link>
           <Link to='/dubai-developer'>
-            <div className='border p-4 md:h-32 h-24 flex items-center'>
-              <img src={dev3} alt='' className='w-full' />
+            <div className='border p-4 md:h-32 h-24 flex justify-center items-center'>
+              <img src={dev3} alt='' className=' md:w-2/3 w-full' />
             </div>
           </Link>
           <Link to='/dubai-developer'>
-            <div className='border p-4 md:h-32 h-24 flex items-center'>
-              <img src={dev4} alt='' className='w-full' />
+            <div className='border p-4 md:h-32 h-24 flex justify-center items-center'>
+              <img src={dev4} alt='' className=' md:w-2/3 w-full' />
             </div>
           </Link>
           <Link to='/dubai-developer'>
-            <div className='border p-4 md:h-32 h-24 flex items-center'>
-              <img src={dev1} alt='' className='w-full' />
+            <div className='border p-4 md:h-32 h-24 flex justify-center items-center'>
+              <img src={dev1} alt='' className=' md:w-2/3 w-full' />
             </div>
           </Link>
           <Link to='/dubai-developer'>
-            <div className='border p-4 md:h-32 h-24 flex items-center'>
-              <img src={dev2} alt='' className='w-full' />
+            <div className='border p-4 md:h-32 h-24 flex justify-center items-center'>
+              <img src={dev2} alt='' className=' md:w-2/3 w-full' />
             </div>
           </Link>
           <Link to='/dubai-developer'>
-            <div className='border p-4 md:h-32 h-24 flex items-center'>
-              <img src={dev3} alt='' className='w-full' />
+            <div className='border p-4 md:h-32 h-24 flex justify-center items-center'>
+              <img src={dev3} alt='' className=' md:w-2/3 w-full' />
             </div>
           </Link>
           <Link to='/dubai-developer'>
-            <div className='border p-4 md:h-32 h-24 flex items-center'>
-              <img src={dev4} alt='' className='w-full' />
+            <div className='border p-4 md:h-32 h-24 flex justify-center items-center'>
+              <img src={dev4} alt='' className=' md:w-2/3 w-full' />
             </div>
           </Link>
           <Link to='/dubai-developer'>
-            <div className='border p-4 md:h-32 h-24 flex items-center'>
-              <img src={dev1} alt='' className='w-full' />
+            <div className='border p-4 md:h-32 h-24 flex justify-center items-center'>
+              <img src={dev1} alt='' className=' md:w-2/3 w-full' />
             </div>
           </Link>
           <Link to='/dubai-developer'>
-            <div className='border p-4 md:h-32 h-24 flex items-center'>
-              <img src={dev2} alt='' className='w-full' />
+            <div className='border p-4 md:h-32 h-24 flex justify-center items-center'>
+              <img src={dev2} alt='' className=' md:w-2/3 w-full' />
             </div>
           </Link>
           <Link to='/dubai-developer'>
-            <div className='border p-4 md:h-32 h-24 flex items-center'>
-              <img src={dev3} alt='' className='w-full' />
+            <div className='border p-4 md:h-32 h-24 flex justify-center items-center'>
+              <img src={dev3} alt='' className=' md:w-2/3 w-full' />
             </div>
           </Link>
           <Link to='/dubai-developer'>
-            <div className='border p-4 md:h-32 h-24 flex items-center'>
-              <img src={dev4} alt='' className='w-full' />
+            <div className='border p-4 md:h-32 h-24 flex justify-center items-center'>
+              <img src={dev4} alt='' className=' md:w-2/3 w-full' />
             </div>
           </Link>
           <Link to='/dubai-developer'>
-            <div className='border p-4 md:h-32 h-24 flex items-center'>
-              <img src={dev1} alt='' className='w-full' />
+            <div className='border p-4 md:h-32 h-24 flex justify-center items-center'>
+              <img src={dev1} alt='' className=' md:w-2/3 w-full' />
             </div>
           </Link>
           <Link to='/dubai-developer'>
-            <div className='border p-4 md:h-32 h-24 flex items-center'>
-              <img src={dev2} alt='' className='w-full' />
+            <div className='border p-4 md:h-32 h-24 flex justify-center items-center'>
+              <img src={dev2} alt='' className=' md:w-2/3 w-full' />
             </div>
           </Link>
           <Link to='/dubai-developer'>
-            <div className='border p-4 md:h-32 h-24 flex items-center'>
-              <img src={dev3} alt='' className='w-full' />
+            <div className='border p-4 md:h-32 h-24 flex justify-center items-center'>
+              <img src={dev3} alt='' className=' md:w-2/3 w-full' />
             </div>
           </Link>
           <Link to='/dubai-developer'>
-            <div className='border p-4 md:h-32 h-24 flex items-center'>
-              <img src={dev4} alt='' className='w-full' />
+            <div className='border p-4 md:h-32 h-24 flex justify-center items-center'>
+              <img src={dev4} alt='' className=' md:w-2/3 w-full' />
             </div>
           </Link>
         </div>
