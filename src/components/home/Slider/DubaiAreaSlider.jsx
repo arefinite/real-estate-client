@@ -40,9 +40,9 @@ const DubaiAreaSlider = () => {
               {
                   houseData.map(house => (
                       <SwiperSlide key={house.id}>
-                          <div className='h-72'>
+                          <div className='h-[25rem]'>
                               <div>
-                              <img src={house.url} alt={house.id} className='h-56 object-cover w-full ' />
+                              <img src={house.url} alt={house.id} className='h-80 object-cover w-full ' />
                           </div>
                               <div className='mt-2 px-4 md:px-0 '>
                                   <p className='font-bold'>{house.location}</p>

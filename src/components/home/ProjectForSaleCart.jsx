@@ -16,26 +16,24 @@ const ProjectForSaleCart = () => {
               houseData.map(house => (
                   <div key={house.id} className="border-b border-b-slate-200 md:border-0 ">
                        <div className="pb-4">
-                <div>
-                <div>
               <Swiper
                 pagination={true}
                 style={{ '--swiper-pagination-color': '#000' }}
                 modules={[Pagination]}
                 className='mySwiper'
               >
-                {houseData.reverse().map(h => (
-                  <SwiperSlide key={h.id}>
+                {houseData.reverse().map((h,i) => (
+                  <SwiperSlide key={i}>
                     <img
                       src={h.url}
                       alt={h.id}
-                      className='h-56 object-cover w-full '
+                      className='h-80 object-cover w-full '
                     />
                   </SwiperSlide>
                 ))}
               </Swiper>
-            </div>
-            </div>
+        
+
                 <div className='mt-2 px-4 md:px-0 '>
                     <p className='font-bold'>IGO Society House</p>
                               <p className='text-stone-400'><small>Downtown Dubai</small></p>

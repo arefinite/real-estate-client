@@ -4,7 +4,7 @@ const SearchBox = ({placeholder,icon=true}) => {
 	return (
 
 			<div className='flex gap-1 w-full items-center'>
-				<div className='flex items-center min-w-0 flex-grow h-12 md:h-9 overflow-hidden bg-white shadow-lg border border-stone-100 p-2 rounded-full'>
+				<div className='flex items-center min-w-0 md:min-w-[30rem] flex-grow h-12 overflow-hidden bg-white shadow-lg border border-stone-100 p-2 rounded-full'>
 					<CiSearch className='text-xl font-bold ml-1' />
 					<input
 						className='ml-1 items-center outline-none bg-white text-stone-400 flex-grow min-w-0 w-80'
@@ -13,7 +13,7 @@ const SearchBox = ({placeholder,icon=true}) => {
 					/>
 				</div>
 			{
-				icon && <div className='md:h-9 md:w-9 h-12 w-12 md:p-2 p-3 bg-black rounded-[100%]  text-white flex items-center justify-center md:text-lg text-2xl'>
+				icon && <div className=' h-12 w-12 md:p-2 p-3 bg-black rounded-full  text-white flex items-center justify-center text-2xl'>
 				<PiSlidersFill />
 			</div>
 				}

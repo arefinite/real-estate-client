@@ -20,22 +20,24 @@ const LuxuryProjects = () => {
           <div className='pb-4'>
             {/* <img src={house.url} alt={house.id} className='h-56 object-cover w-full ' /> */}
 
-            <div>
+            <div >
               <Swiper
                 pagination={true}
                 style={{ '--swiper-pagination-color': '#000' }}
                 modules={[Pagination]}
                 className='mySwiper'
               >
+               
                 {houseData.slice(5).map(h => (
                   <SwiperSlide key={h.id}>
                     <img
                       src={h.url}
                       alt={h.id}
-                      className='h-56 object-cover w-full '
+                      className='h-80 object-cover w-full '
                     />
                   </SwiperSlide>
                 ))}
+           
               </Swiper>
             </div>
 

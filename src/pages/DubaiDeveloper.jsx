@@ -12,7 +12,7 @@ const DubaiDeveloper = () => {
   return (
     <section>
       <MobileFixedHeader link='/' text='Back' icon='back' share />
-      <HeaderDesktopAll />
+      <HeaderDesktopAll  />
       <div className='container mx-auto my-4'>
         <Breadcrumb link1='/' link1Text='Home' link2Text='Dubai Developers' link2='/dubai-developers' link3 link3Text='Dubai Developer' />
         <div>
@@ -54,7 +54,7 @@ const DubaiDeveloper = () => {
                   <img
                     src={house.url}
                     alt={house.id}
-                    className='h-56 object-cover w-full '
+                    className='h-80 object-cover w-full '
                   />
                 </div>
                 <div className='mt-2 px-4 md:px-2  '>

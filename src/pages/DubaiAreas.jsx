@@ -28,7 +28,7 @@ const DubaiAreas = () => {
                   <img
                     src={house.url}
                     alt={house.id}
-                    className='h-56 object-cover w-full '
+                    className='h-80 object-cover w-full '
                   />
                 </div>
                 <div className='mt-2 px-4 md:px-2  '>
