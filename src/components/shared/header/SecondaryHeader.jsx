@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 
 const SecondaryHeader = ({ link, icon, text, download, share ,name}) => {
 	return (
-		<div className='flex justify-center sticky top-0 bg-white border border-slate-200 z-[50]'>
+		<div className={`flex justify-center sticky top-0 bg-white border-b border-slate-200 md:border-none  z-[50]`}>
 			<div>
 				<div className='flex justify-between'>
 					<button className='absolute left-4 top-6'>
@@ -20,7 +20,7 @@ const SecondaryHeader = ({ link, icon, text, download, share ,name}) => {
 							</div>
 						</Link>
 					</button>
-					<h1 className='p-[17px] heading'>{name}</h1>
+					<h1 className='p-[17px] md:p-0 heading'>{name}</h1>
 					<div className='flex gap-4 items-center absolute right-4 top-4 ml-8 '>
 						<span>
 							{download && <IoMdDownload style={{ fontSize: "2rem" }} />}

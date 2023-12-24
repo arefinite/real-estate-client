@@ -7,8 +7,12 @@ import BottomNavigation from '../components/shared/BottomNavigation'
 import { houseData } from '../data/houseData'
 import dev2 from '/emaar-logo.png'
 import Breadcrumb from '../components/shared/Breadcrumb'
+import RegisterInterest from '../components/RegisterInterest'
+import { useState } from 'react'
+import CommonModal from '../components/shared/CommonModal'
 
 const DubaiDeveloper = () => {
+  const [showModal,setShowModal] = useState(false)
   return (
     <section>
       <MobileFixedHeader link='/' text='Back' icon='back' share />
@@ -34,8 +38,10 @@ const DubaiDeveloper = () => {
                 unde voluptates voluptatem? Ex, ea.
               </p>
             </div>
-              <button className='bg-black text-white w-full md:w-56 py-3 mt-4'>Register Interest</button>
+              <button className='bg-black text-white w-full md:w-56 py-3 mt-4' onClick={()=>setShowModal(true)}>Register Interest</button>
           </div>
+        
+          {/* { registerInterest && <div><RegisterInterest/></div>} */}
           <div className='mt-8'>
             <ProjectForSale />
           </div>
@@ -74,6 +80,16 @@ const DubaiDeveloper = () => {
       </div>
       <Footer />
       <BottomNavigation />
+      <div className='hidden md:block'>
+          {showModal &&
+            <CommonModal setShowModal={setShowModal}>
+              <RegisterInterest/>
+            </CommonModal>
+          }
+          </div>
+          <div className='md:hidden absolute top-0 bg-white'>
+              <RegisterInterest/>
+          </div>
     </section>
   )
 }
