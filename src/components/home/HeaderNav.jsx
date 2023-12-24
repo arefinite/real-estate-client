@@ -1,9 +1,13 @@
 import { RiWhatsappFill } from 'react-icons/ri'
 import { IoIosMail } from 'react-icons/io'
 import { IoMenuSharp } from 'react-icons/io5'
-import {useLocation} from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
+import {useDispatch} from 'react-redux'
+import { setNav } from '../../features/NavSlice'
+
 
 const HeaderNav = ({ scrolled }) => {
+  const dispatch = useDispatch()
   const { pathname } = useLocation()
   console.log(pathname);
   return (
@@ -17,7 +21,7 @@ const HeaderNav = ({ scrolled }) => {
         </div>
       </div>
       <div>
-        <IoMenuSharp className={ `text-4xl ${pathname==='/' && !scrolled ? 'text-white': 'text-black'} `} />
+        <IoMenuSharp onClick={()=>dispatch(setNav())}  className={ `text-4xl ${pathname==='/' && !scrolled ? 'text-white': 'text-black'} cursor-pointer `} />
       </div>
     </div>
   )

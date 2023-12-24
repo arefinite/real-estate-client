@@ -2,8 +2,9 @@ import { IoIosArrowBack } from 'react-icons/io'
 import { HeaderNav, SearchBox } from '../../home'
 import { Link } from 'react-router-dom'
 
+
 const HeaderDesktopAll = ({ home = false, scrolled }) => {
-  console.log(scrolled)
+
   return (
     <section
       className={`hidden md:block w-full fixed top-0 ${

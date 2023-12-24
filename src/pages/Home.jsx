@@ -1,11 +1,13 @@
+
 import { DubaiAreaSlider, DubaiSection, LatestProjectSlider, LuxuryProjects, ProjectForSale, ProjectForSaleCart, TopBanner } from "../components/home"
 import BottomNavigation from "../components/shared/BottomNavigation"
 import Footer from "../components/shared/footer/Footer"
 
 const Home = () => {
+
   return (
       <>
-          <TopBanner />
+          <TopBanner  />
           <DubaiSection title="Dubai Latest Project">
               <LatestProjectSlider />
           </DubaiSection>

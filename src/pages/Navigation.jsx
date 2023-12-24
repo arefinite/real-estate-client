@@ -5,18 +5,20 @@ import { IoIosArrowUp } from "react-icons/io"
 import { Link } from "react-router-dom"
 import SecondaryHeader from "../components/shared/header/SecondaryHeader"
 
-
-const Navigation = () => {
+import {useDispatch} from 'react-redux'
+import { setNav } from "../features/NavSlice"
+const Navigation = ({desktop=false}) => {
 	// const [linkName,setLinkName] = useState(linkName)
 	// const handleLink = () => {
 		
 	// }
+	const dispatch = useDispatch()
 	const [show1, setShow1] = useState(false)
 	const [show2, setShow2] = useState(false)
 	const [show3, setShow3] = useState(false)
 	return (
 		<nav>
-			<SecondaryHeader link='/' icon='delete' name='Menu' />
+			{!desktop && <SecondaryHeader link='/' icon='delete' name='Menu' />}
 
 			<div className='px-6 space-y-2 text-stone-700'>
 				<h1 className='mt-12 nav-item'>
@@ -89,7 +91,7 @@ const Navigation = () => {
 								<li>Business Bay</li>
 							
 							
-								<li><Link to='/dubai-areas'>View All</Link></li>
+								<li><Link to='/dubai-areas' onClick={()=>dispatch(setNav())}>View All</Link></li>
 							
 						</ul>
 					</div>
@@ -136,7 +138,7 @@ const Navigation = () => {
 				<h1 className='nav-item'>
 					
                     <span className='flex items-center gap-2'>
-                        <Link to='/dubai-developers'>Dubai Developers</Link>
+                        <Link to='/dubai-developers' onClick={()=>dispatch(setNav())}>Dubai Developers</Link>
                         </span>
 					
 				</h1>
