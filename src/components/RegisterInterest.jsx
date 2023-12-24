@@ -5,10 +5,11 @@ const RegisterInterest = () => {
 		<div>
 			<div>
 				<div>
-					<SecondaryHeader name='Register Interest' />
+					<div className="md:hidden"><SecondaryHeader icon='delete' name='Register Interest' /></div>
+					<div className="hidden md:block"><SecondaryHeader  name='Register Interest' /></div>
 					<div>
 						<div>
-							<h1 className='text-center py-8 heading'>
+							<h1 className='text-center py-8 heading w-screen md:w-full'>
 								Emaar
 							</h1>
 							<div>
@@ -28,8 +29,9 @@ const RegisterInterest = () => {
 										className='p-2 border border-slate-300 w-full outline-none'
 										required
 									/>
-									<div className='border border-slate-300'>
-										<select
+									<div className='border border-slate-300 w-full'>
+                                        <select
+                                            className="w-1/6"
 											style={{
 												color: "#666",
 												backgroundColor: "#fff",
@@ -44,7 +46,7 @@ const RegisterInterest = () => {
 										<input
 											type='number'
 											placeholder='Number'
-											className='p-2 border-none outline-none'
+											className='p-2 border-none outline-none  w-5/6'
 											required
 										/>
 									</div>

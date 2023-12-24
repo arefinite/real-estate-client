@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import RootLayout from "../layouts/RootLayout";
-import { DubaiAreas, DubaiDeveloper, DubaiDevelopers, Home, Navigation, NotFound } from "../pages";
+import { DubaiAreas, DubaiDeveloper, DubaiDevelopers, Home, Navigation, NotFound, Map } from "../pages";
 
 export const appRouter = createBrowserRouter([
     {
@@ -27,6 +27,10 @@ export const appRouter = createBrowserRouter([
             {
                 path: 'navigation',
                 element: <Navigation />
+            },
+            {
+                path: 'map',
+                element: <Map />
             }
         ]
     }

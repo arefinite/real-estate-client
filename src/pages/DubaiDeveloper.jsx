@@ -24,7 +24,7 @@ const DubaiDeveloper = () => {
             <div className='p-6 md:p-0 flex-1  grid place-content-center md:border-0 border border-slate-300 w-full'>
               <img src={dev2} alt="" className='md:w-full h-12 md:mx-auto'  />
             </div>
-            <div className='w-full'>
+            <div className='w-full md:max-w-[500px] mx-auto text-left'>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Dolorum rem aspernatur ea minus! Id consequuntur dignissimos
