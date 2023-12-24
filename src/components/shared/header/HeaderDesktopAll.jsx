@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const HeaderDesktopAll = ({home=false}) => {
   return (
-      <section className='hidden md:block w-full shadow-lg h-16'>
+      <section className={`hidden md:block w-full fixed top-0 ${home ? 'shadow-none' : 'shadow-lg'} h-20 ${home ? 'bg-transparent' : 'bg-white'} z-50 `}>
           <div className='md:container md:w-full md:mx-auto  md:flex md:justify-between  mx-4 mb-4 md:px-0 md:my-4 md:relative md:z-50 '>
       <div className={`flex gap-1 items-center ${home? 'invisible' : 'block'}`}>
       <IoIosArrowBack /><Link to='/'> Back to Home</Link>

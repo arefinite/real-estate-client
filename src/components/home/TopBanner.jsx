@@ -1,11 +1,17 @@
+import HeaderDesktop from '../shared/header/HeaderDesktop'
 import HeaderDesktopAll from '../shared/header/HeaderDesktopAll'
 import BannerImage from './BannerImage'
 
 const TopBanner = () => {
   return (
-    <section>
-      <HeaderDesktopAll home />
-      <div className='md:relative  md:bottom-40 md:-mb-40 md:z-20'>
+    <section className='h-screen'>
+      <div className='md:hidden'>
+        <HeaderDesktop home />
+      </div>
+      <div>
+        <HeaderDesktopAll home/>
+      </div>
+      <div className='md:relative h-full pb-10 md:pb-0  md:z-20'>
         <BannerImage />
       </div>
     </section>
