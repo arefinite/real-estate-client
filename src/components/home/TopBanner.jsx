@@ -11,7 +11,7 @@ const TopBanner = () => {
       <div>
         <HeaderDesktopAll home/>
       </div>
-      <div className='md:relative h-full pb-10 md:pb-0  md:z-20'>
+      <div className='md:relative h-full  md:z-20'>
         <BannerImage />
       </div>
     </section>
