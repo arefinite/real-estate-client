@@ -24,7 +24,7 @@ const DubaiDeveloper = () => {
             <div className='p-6 md:p-0 flex-1  grid place-content-center md:border-0 border border-slate-300 w-full'>
               <img src={dev2} alt="" className='md:w-full h-12 md:mx-auto'  />
             </div>
-            <div className='w-full md:max-w-[500px] mx-auto text-left'>
+            <div className='w-full md:max-w-[900px] mx-auto text-left'>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Dolorum rem aspernatur ea minus! Id consequuntur dignissimos
@@ -35,7 +35,7 @@ const DubaiDeveloper = () => {
                 Possimus, eaque eius. Tenetur laborum neque sunt eius velit
                 dignissimos dolore, doloremque optio eum repellat? Quae corporis
                 enim, rem sint aut dicta optio, voluptate nobis, nulla eaque
-                unde voluptates voluptatem? Ex, ea.
+                unde voluptates voluptatem? unde voluptates voluptatem? 
               </p>
             </div>
               <button className='bg-black text-white w-full md:w-56 py-3 mt-4' onClick={()=>setShowModal(true)}>Register Interest</button>
