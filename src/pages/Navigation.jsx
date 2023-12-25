@@ -33,7 +33,7 @@ const Navigation = ({desktop=false}) => {
 					
 				</h1>
 
-				<h1 className='nav-item' onClick={() => setShow1(prev => !prev)}>
+				<h1 className='nav-item' onClick={() => { setShow1(prev => !prev); setShow2(false); setShow3(false) }}>
 					<span className='flex items-center gap-2'>
 						Dubai Projects For Sale{" "}
 						{show1 ? (
@@ -45,7 +45,7 @@ const Navigation = ({desktop=false}) => {
 				</h1>
 				{show1 && (
 					<div className='dropdown pb-3'>
-						<ul className='text-base leading-10'>
+						<ul className=' leading-10'>
 						
 								<li>Luxury Projects</li>
 							
@@ -62,7 +62,7 @@ const Navigation = ({desktop=false}) => {
 						</ul>
 					</div>
 				)}
-				<h1 className='nav-item' onClick={() => setShow2(prev => !prev)}>
+				<h1 className='nav-item' onClick={() => { setShow2(prev => !prev); setShow1(false); setShow3(false) }}>
 					<span className='flex items-center gap-2'>
 						Dubai Areas{" "}
 						{show2 ? (
@@ -74,7 +74,7 @@ const Navigation = ({desktop=false}) => {
 				</h1>
 				{show2 && (
 					<div className='dropdown'>
-						<ul className='text-base leading-10 pb-3'>
+						<ul className=' leading-10 pb-3'>
 							
 								<li>Palm Jumeirah</li>
 							
@@ -97,7 +97,7 @@ const Navigation = ({desktop=false}) => {
 					</div>
 				)}
 
-				<h1 className='nav-item' onClick={() => setShow3(prev => !prev)}>
+				<h1 className='nav-item' onClick={() => { setShow3(prev => !prev), setShow1(false); setShow2(false) }}>
 					<span className='flex items-center gap-2'>
 						Explore{" "}
 						{show3 ? (
@@ -109,7 +109,7 @@ const Navigation = ({desktop=false}) => {
 				</h1>
 				{show3 && (
 					<div className='dropdown'>
-						<ul className='text-base leading-10 pb-3'>
+						<ul className=' leading-10 pb-3'>
 							
 								<li>Why Dubai</li>
 							
